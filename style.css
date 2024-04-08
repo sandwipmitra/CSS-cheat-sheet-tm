@@ -1,0 +1,35 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #555555;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  /* font: normal 16px Arial; */
+  line-height: 1.6em;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.box-1 {
+  background-color: #333;
+  color: #fff;
+  border: 5px red solid;
+  border-width: 2px;
+  border-bottom-width: 10px;
+
+
+}
