@@ -8,6 +8,10 @@ html {
   padding: 0;
 }
 
+.m-b {
+  margin-bottom: 500px;
+}
+
 body {
   background-color: #f4f4f4;
   color: #555555;
@@ -19,9 +23,14 @@ body {
   margin: 0;
 }
 
+
 .container {
   width: 80%;
   margin: auto;
+}
+
+.clr {
+  clear: both;
 }
 
 .box-1 {
@@ -30,6 +39,104 @@ body {
   border: 5px red solid;
   border-width: 2px;
   border-bottom-width: 10px;
+  padding: 20px;
+  margin: 20px 0;
+}
 
+.box-1 h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* text-decoration: underline; */
+  margin-bottom: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
 
+}
+
+.box-2 {
+  /* margin: 20px 0; */
+  padding: 20px;
+  border: 5px dotted #ccc;
+
+}
+
+.categories {
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px dotted #aaa;
+  /* background-color: #3f2321; */
+}
+
+.categories h2 {
+  text-align: center;
+  /* color: #fff; */
+}
+
+.categories li {
+  list-style: none;
+}
+
+.categories a {
+  text-decoration: none;
+  color: #000;
+}
+
+.categories a:hover {
+  color: red;
+}
+
+.categories a:active {
+  color: green;
+}
+
+/* -------------form----------- */
+.my-form {
+  padding: 20px;
+}
+
+.my-form .form-group {
+  padding-bottom: 15px;
+}
+
+.my-form label {
+  display: block;
+}
+
+.my-form input[type="text"],
+.my-form textarea {
+  padding: 8px;
+  width: 100%;
+}
+
+/* .my-form input[type="submit"]{
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+} */
+.button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+}
+
+/* ------------block---------------- */
+.block {
+  float: left;
+  width: 33.3%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* ---------main-block----sidebar-------- */
+#main-block {
+  float: left;
+  width: 70%;
+}
+
+#sidebar {
+  float: right;
+  width: 30%;
 }
