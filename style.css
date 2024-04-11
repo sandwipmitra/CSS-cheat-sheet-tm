@@ -139,4 +139,36 @@ body {
 #sidebar {
   float: right;
   width: 30%;
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+/* ----------positioning----------- */
+.p-box {
+  border: 1px solid #333;
+  width: 800px;
+  height: 500px;
+  margin-top: 30px;
+  position: relative;
+  background-image: url(images/bg-abstruct.jpg);
+  background-position: center center;
+}
+
+.p-box h1 {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+}
+
+.p-box h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.fix-me {
+  position: fixed;
+  top: 400px;
 }
